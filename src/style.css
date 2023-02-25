@@ -1,6 +1,6 @@
 body {
-  font-family: arial, sans-serif;
-
+  font-family: "Press Start 2P";
+  font-size: 12px;
   background-image: url("https://i.pinimg.com/originals/3e/0e/21/3e0e212843311519cfd4e8b6e7d56bbe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +33,11 @@ li {
 .btn {
   color: #9e81e0;
   background-color: #2001a0;
+}
+
+.btn:hover {
+  color: #2001a0;
+  background-color: #549bd8;
 }
 
 li:first-letter {
@@ -137,8 +142,4 @@ li:first-letter {
 .weather-forecast-temp {
   font-size: 12px;
   color: #2001a0;
-}
-
-li {
-  display: inline;
 }
