@@ -50,13 +50,12 @@ li:first-letter {
   border-radius: 5px;
   background-color: #7ee300;
   margin-bottom: 10px;
-  text-align: center;
-  font-family: "SEGA LOGO FONT";
-  font-style: normal;
-  font-weight: normal;
-  src: local("SEGA LOGO FONT"), url("SEGA.woff") format("woff");
-  font-size: 25px;
-  color: #2001a0;
+}
+
+.title-image {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-app {
