@@ -125,7 +125,7 @@ li:first-letter {
   color: #9ec2dc;
 }
 
-.forecast {
+.five-day-forecast {
   padding: 10px;
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -144,4 +144,10 @@ li:first-letter {
   color: #2001a0;
 }
 
-
+.form-control {
+  padding-left: 20px;
+  background: url("https://www.google.com/images/sonic/3-sonic-wait1-60px.gif")
+    no-repeat left;
+  background-color: white;
+  background-size: 20px;
+}
