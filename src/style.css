@@ -30,8 +30,13 @@ li {
   line-height: 19px;
 }
 
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .btn {
-  color: #9e81e0;
+  color: white;
   background-color: #2001a0;
 }
 
@@ -104,7 +109,6 @@ li:first-letter {
 
 .weather-forecast {
   margin-top: 20px;
-  text-align: center;
   color: #000;
 }
 
@@ -131,7 +135,7 @@ li:first-letter {
   border-radius: 5px;
   background-color: #7ee300;
   margin-top: 10px;
-  text-align: center;
+  justify-content: center;
 }
 
 .weather-forecast-day {
