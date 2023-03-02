@@ -1,5 +1,5 @@
 body {
-  font-family: "Press Start 2P";
+  font-family: "Limelight", sans-serif;
   font-size: 12px;
   background-image: url("https://i.pinimg.com/originals/3e/0e/21/3e0e212843311519cfd4e8b6e7d56bbe.jpg");
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ li:first-letter {
 }
 
 .weather-app {
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
   background-color: #7ee300;
@@ -87,7 +87,7 @@ li:first-letter {
 
 .weather-temperature strong {
   color: #2001a0;
-  font-size: 46px;
+  font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
@@ -154,4 +154,9 @@ li:first-letter {
     no-repeat left;
   background-color: white;
   background-size: 20px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: large;
 }

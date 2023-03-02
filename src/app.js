@@ -22,6 +22,16 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
+
+function displayWeekly() {
+  let forecastElement = document.querySelector(#weekly)
+
+
+  forecastElement.innerHTML = "weekly";
+}
+
+
+
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();
@@ -95,6 +105,7 @@ function displayTemperature(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
+
 
   getForecast(response.data.coord);
 }
