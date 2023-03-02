@@ -63,7 +63,7 @@ li:first-letter {
 }
 
 .title-image {
-  max-width: 100%;
+  max-width: 450px;
   display: block;
   margin: 0 auto;
 }
