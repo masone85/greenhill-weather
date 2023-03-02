@@ -23,12 +23,8 @@ function formatDate(timestamp) {
 }
 
 
-function displayWeekly() {
-  let forecastElement = document.querySelector(#weekly)
 
 
-  forecastElement.innerHTML = "weekly";
-}
 
 
 
