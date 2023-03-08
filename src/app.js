@@ -122,10 +122,3 @@ form.addEventListener("submit", handleSubmit);
 
 search("Greenhill");
 displayForecast();
-
-//Add Sonic waiting to search bar
-//align weather icon correctly
-//reduce margin bottom on forecast app
-//adjust HTML for 5 day forecast
-//add API for 5 day forecast
-//smooth transitions and tweaks
