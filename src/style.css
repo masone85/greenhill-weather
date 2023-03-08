@@ -157,3 +157,12 @@ li:first-letter {
   margin-top: 10px;
   font-size: large;
 }
+
+.five-day-forecast {
+  padding: 10px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  background-color: #7ee300;
+  margin-top: 10px;
+  text-align: center;
+}
