@@ -22,11 +22,26 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
-
-
-
-
-
+//function displayForecast() {
+  let forecastElement = document.querySelector("#forecast-1");
+}
+let forecastHTML = "";
+forecastElement = `
+<div class="row">
+            <div class="col-2">
+              <div class="weather-forecast-day">Thurs</div>
+              <img
+                src="https://openweathermap.org/img/wn/04n@2x.png"
+                alt
+                width="36"/>
+              <div class="temperature-high-low">
+                <span class="weather-forecast-temp-high">6°</span>
+                <span class="weather-forecast-temp-low">1°</span>
+              </div>
+            </div>
+          </div>
+          `;
+forecastElement.innerHTML = forecastHTML;
 
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
@@ -102,7 +117,6 @@ function displayTemperature(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
-
   getForecast(response.data.coord);
 }
 
@@ -123,7 +137,7 @@ form.addEventListener("submit", handleSubmit);
 
 search("Greenhill");
 
-//Add Sonic waiting to search bar
+//Add Sonic waiting to search bar/
 //align weather icon correctly
 //reduce margin bottom on forecast app
 //adjust HTML for 5 day forecast
