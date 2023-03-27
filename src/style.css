@@ -109,7 +109,8 @@ li:first-letter {
 
 .weather-forecast {
   margin-top: 20px;
-  color: #000;
+  text-align: center;
+  color: #2001a0;
   padding: 10px;
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -165,4 +166,8 @@ li:first-letter {
   background-color: #7ee300;
   margin-top: 10px;
   text-align: center;
+}
+
+.weather-forecast-temp-low {
+  color: #549bd8;
 }
