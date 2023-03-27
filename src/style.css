@@ -171,3 +171,8 @@ li:first-letter {
 .weather-forecast-temp-low {
   color: #549bd8;
 }
+
+.theme-button {
+  display: block;
+  margin: 0 auto;
+}
