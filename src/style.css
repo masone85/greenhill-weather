@@ -2,6 +2,8 @@ body {
   font-family: "Limelight", sans-serif;
   font-size: 12px;
   background-image: url("https://i.pinimg.com/originals/3e/0e/21/3e0e212843311519cfd4e8b6e7d56bbe.jpg");
+  background-size: cover;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #bc5f02;
@@ -174,6 +176,11 @@ li:first-letter {
 }
 
 .theme-button {
+  display: block;
+  margin: 0 auto;
+}
+
+.overview {
   display: block;
   margin: 0 auto;
 }
