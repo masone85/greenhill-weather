@@ -26,7 +26,7 @@ function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
 
   forecastElement.innerHTML = `
-  <div class="row">
+        <div class="row">
             <div class="col-2">
               <div class="weather-forecast-day">Thurs</div>
 
@@ -41,7 +41,7 @@ function displayForecast() {
               </div>
             </div>
           </div>
-        </div>
+        
         `;
 }
 
@@ -58,7 +58,8 @@ function displayForecast(response) {
 
   let forecastElement = document.querySelector("#forecast");
 
-  let forecastHTML = `<div class="row">`;
+  let forecastHTML = `
+  <div class="row">`;
   forecast.forEach(function (forecastDay, index) {
     if (index < 6) {
       forecastHTML =
